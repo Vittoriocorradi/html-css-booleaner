@@ -1,17 +1,27 @@
 /* Immagine sfondo e logo */
 
+body {
+    margin: 0;
+}
+
 header {
     background-color: rgb(68,160,255);
     background-image: url(../img2/pattern.png);
     background-size: contain;
-    height: 120px;
+    height: 100px;
 }
 
 #logo {
-    width: 350px;
-    height: 70px;
+    width: 320px;
+    height: 55px;
     padding-top: 40px;
-    margin: 0;
+    margin: 0 0 0 -35px;
+}
+
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 10px;
 }
 
 h1 {
@@ -19,20 +29,18 @@ h1 {
 }
 
 h3 {
-    margin-top: 0;
+    margin: 0;
     color: rgb(127,127,127);
 }
 
 #data {
     font-size: 14px;
+    color: rgb(127,127,127);
+    margin-bottom: 20px;
 }
 
 .source {
     font-size: 12px;
-}
-
-main {
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
@@ -49,7 +57,9 @@ table{
 }
 
 td {
-    padding: 10px 150px 10px 0;
+    padding: 10px 10px 10px 0;
+    margin: auto;
+    width: 10%;
 }
 
 /* Colori tabella */
@@ -61,6 +71,10 @@ thead {
 
 .riga-colorata {
     background-color: rgb(177, 229, 242);
+}
+
+footer {
+    margin: 10px;
 }
 
 h4 {
