@@ -2,12 +2,29 @@ header {
     background-color: rgb(68,160,255);
     background-image: url(../img2/pattern.png);
     background-size: contain;
-    height: 160px;
+    height: 120px;
 }
 
 #logo {
     width: 350px;
     height: 70px;
-    padding-top: 80px;
+    padding-top: 40px;
     margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    color: rgb(127,127,127);
+}
+
+#data {
+    font-size: 14px;
+}
+
+.source {
+    font-size: 12px;
 }
